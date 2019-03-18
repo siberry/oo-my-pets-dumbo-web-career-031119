@@ -24,5 +24,9 @@ class Owner
   def say_species
     "I am a #{@species}."
   end
+  
+  def pets
+    
+  end
     
 end
