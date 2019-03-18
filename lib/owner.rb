@@ -53,7 +53,7 @@ class Owner
   end
   
   def sell_pets
-    pets.each do |species,y|
+    pets.each do |species,animals|
       binding.pry
     end
   end
