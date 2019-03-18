@@ -51,5 +51,9 @@ class Owner
   def feed_fish
     pets[:fishes].map {|fish| fish.mood = "happy" }
   end
+  
+  def sell_pets
+    binding.pry
+  end
     
 end
