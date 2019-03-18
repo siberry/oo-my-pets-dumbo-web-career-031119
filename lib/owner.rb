@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   # code goes here
   @@all = []
@@ -30,6 +32,7 @@ class Owner
   end
   
   def buy_fish(name)
+    binding.pry
     new_fish = Fish.new(name)
     pets[:fishes] << new_fish
   end
