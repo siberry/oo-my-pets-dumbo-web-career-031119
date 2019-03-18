@@ -60,5 +60,8 @@ class Owner
       animals.clear
     end
   end
+  
+  def list_pets
+    fish = pets[:fishes].count
     
 end
